@@ -1,7 +1,7 @@
-# ## 🧠 MITRE ATT&CK Mapping
+ MITRE ATT&CK Mapping
 
 
-## 🔎 Project Overview
+ Project Overview
 
 This project analyzes real-world attack data captured using the T-Pot honeypot platform over a two-month period. The analysis reveals automated botnet-driven attacks targeting exposed services such as SSH and Telnet.
 
@@ -24,6 +24,8 @@ The observed attack follows a complete intrusion lifecycle consistent with autom
 | Defense Evasion       | Disguising malware as .jpg files                      | T1036 – Masquerading                      |
 | Impact                | Botnet activity (Mirai/Tsunami, DDoS capability)      | T1496 – Resource Hijacking                |
 
-### 🔍 Summary
+ Summary
 
 The attack demonstrates a fully automated compromise workflow commonly used by IoT botnets. The sequence of brute-force access, reconnaissance, payload delivery, and persistence highlights a structured and repeatable attack pattern aligned with real-world threat intelligence.
+
+Analysis is based on previously collected honeypot data and documented observations.
